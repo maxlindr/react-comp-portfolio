@@ -1,0 +1,14 @@
+.input {
+  text-transform: capitalize;
+}
+
+.button {
+  &:hover,
+  &:focus {
+    svg {
+      path {
+        stroke: #333333;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.root {
+  position: relative;
+}
+
+.pickers {
+  position: absolute;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 12px rgba(125, 130, 131, 0.3);
+  border-radius: 4px;
+  z-index: 1;
+}

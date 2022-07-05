@@ -1,0 +1,33 @@
+.root {
+  padding: 20px 20px 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border-bottom: 1px solid #9e9e9e;
+  color: #333333;
+}
+
+.year, .month {
+  cursor: pointer;
+}
+
+.year {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.month {
+  margin-top: 8px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+.selected {
+  font-weight: 700;
+}

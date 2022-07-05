@@ -1,0 +1,37 @@
+.container {
+  // relative position necessary for HTMLElement.offsetTop
+  // called in child elements to show the value relative to this container
+  position: relative;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  display: flex;
+  flex-direction: column;
+
+  max-height: 320px;
+  overflow: auto;
+  overscroll-behavior: none;
+}
+
+.btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+  color: #333333;
+
+  &:focus {
+    font-weight: 700;
+  }
+
+  & + & {
+    margin-top: 16px;
+  }
+}
+
+.selected {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
