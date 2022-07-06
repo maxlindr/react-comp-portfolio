@@ -5,7 +5,7 @@ import styles from './App.module.scss';
 
 export const App = () => {
   return (
-    <>
+    <div className={styles.app}>
       <AppHeader />
       <main className={styles.main}>
         <section className={styles.section}>
@@ -18,6 +18,6 @@ export const App = () => {
           <MultiselectDemo />
         </section>
       </main>
-    </>
+    </div>
   );
 };

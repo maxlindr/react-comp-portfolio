@@ -5,3 +5,13 @@
 .section {
   margin-top: 48px;
 }
+
+.app {
+  height: 100vh;
+  overflow: scroll;
+
+  @supports (scrollbar-gutter: stable) {
+    overflow: auto;    
+    scrollbar-gutter: stable;  
+  }
+}
