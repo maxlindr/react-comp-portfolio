@@ -1,0 +1,9 @@
+.root {
+  max-width: 400px;
+}
+
+.fieldset {
+  & + & {
+    margin-top: 24px;
+  }
+}
