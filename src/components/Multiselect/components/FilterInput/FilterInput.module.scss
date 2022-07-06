@@ -1,0 +1,87 @@
+.wrapper {
+  position: relative;
+}
+
+.buttonsContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+}
+
+.input {
+  display: block;
+  box-sizing: border-box;
+  padding: 13px 80px 13px 15px;
+  
+  width: 100%;
+
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #333333;
+  background: transparent;
+
+  border: none;
+
+  border: 1px solid #9e9e9e;
+  border-radius: 4px;
+
+  @media (min-width: 1170px) {
+    font-size: 16px;
+  }
+
+  &::placeholder {
+    color: #9e9e9e;
+  }
+
+  &.open {
+    border-bottom: 1px solid #9e9e9e;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  &.error {
+    border-color: red;
+  }
+}
+
+.xBtn {
+  padding: 0;
+
+  width: 24px;
+  height: 24px;
+
+  appearance: none;
+  cursor: pointer;
+	border: none;
+	background: transparent;
+
+  background-size: cover;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18 6 6 18M6 6l12 12' stroke='%23333' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.openBtn {
+  padding: 0;
+
+  width: 24px;
+  height: 24px;
+
+  appearance: none;
+  cursor: pointer;
+	border: none;
+	background: transparent;
+
+  background-size: cover;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m6 9 6 6 6-6' stroke='%239E9E9E' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.hidden {
+  display: none;
+}
