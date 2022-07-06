@@ -8,7 +8,7 @@ export const AppHeader = () => {
 
       <a
         className={styles.appLink}
-        href="https://reactjs.org"
+        href="https://github.com/maxlindr/react-comp-demo"
         target="_blank"
         rel="noopener noreferrer"
       >
