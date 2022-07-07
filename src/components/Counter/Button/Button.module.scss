@@ -1,0 +1,25 @@
+.button {
+  cursor: pointer;
+
+  svg {
+    display: block;
+  }
+
+  &:hover, &:focus {
+    svg {
+      path {
+        stroke: #41c1ca;
+      }
+    }
+  }
+
+  &:disabled {
+    cursor: default;
+
+    svg {
+      path {
+        stroke: #9e9e9e;
+      }
+    }
+  }
+}
