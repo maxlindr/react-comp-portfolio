@@ -1,0 +1,9 @@
+.fieldset {
+  & + & {
+    margin-top: 24px;
+  }
+}
+
+.counter {
+  width: 166px;
+}
