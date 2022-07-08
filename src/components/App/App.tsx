@@ -24,25 +24,27 @@ export const App = () => {
       <div className={styles.app}>
         <AppHeader />
         <main className={styles.main}>
-          <section className={styles.section}>
-            <h2>Date picker</h2>
-            <DesktopDatePickerDemo />
-          </section>
+          <div className={styles.wrapper}>
+            <section className={styles.section}>
+              <h2>Date picker</h2>
+              <DesktopDatePickerDemo />
+            </section>
 
-          <section className={styles.section}>
-            <h2>Multiselect</h2>
-            <MultiselectDemo />
-          </section>
+            <section className={styles.section}>
+              <h2>Multiselect</h2>
+              <MultiselectDemo />
+            </section>
 
-          <section className={styles.section}>
-            <h2>Counter</h2>
-            <CounterDemo />
-          </section>
+            <section className={styles.section}>
+              <h2>Counter</h2>
+              <CounterDemo />
+            </section>
 
-          <section className={styles.section}>
-            <h2>Accordion</h2>
-            <AccordionDemo />
-          </section>
+            <section className={styles.section}>
+              <h2>Accordion</h2>
+              <AccordionDemo />
+            </section>
+          </div>
         </main>
       </div>
     </ThemeProvider>
