@@ -1,0 +1,35 @@
+.root {
+  position: relative;
+
+  border-radius: 4px;
+  border: 1px solid #9e9e9e;
+  padding: 1rem (1.5rem * 3) 1rem 1rem;
+
+  font-size: 1rem;
+  font-family: inherit;
+  text-align: left;
+
+  display: block;
+  width: 100%;
+
+  cursor: pointer;
+
+  &:focus {
+    outline: 1px solid gray;
+  }
+
+  &:disabled {
+    cursor: default;
+    color: #aaa;
+  }
+}
+
+.iconWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 16px;
+
+  width: 24px;
+  height: 24px;
+}
