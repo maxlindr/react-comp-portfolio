@@ -4,6 +4,7 @@ import { DesktopDatePickerDemo } from '../DesktopDatePickerDemo';
 import { MultiselectDemo } from '../MultiselectDemo';
 import { createTheme, ThemeProvider } from '@mui/material';
 import styles from './App.module.scss';
+import { AccordionDemo } from '../AccordionDemo';
 
 const theme = createTheme({
   components: {
@@ -36,6 +37,11 @@ export const App = () => {
           <section className={styles.section}>
             <h2>Counter</h2>
             <CounterDemo />
+          </section>
+
+          <section className={styles.section}>
+            <h2>Accordion</h2>
+            <AccordionDemo />
           </section>
         </main>
       </div>
