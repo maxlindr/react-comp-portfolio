@@ -6,12 +6,28 @@
   }
 }
 
+.container {
+  @media (min-width: 1024px) {
+    margin: 0 auto;
+    max-width: 800px + 2 * 80px + 80px;
+  }
+}
+
+.columns {
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+  }
+}
+
 .section {
   margin-top: 48px;
 }
 
 .app {
   height: 100vh;
+  min-width: 320px;
   overflow: scroll;
 
   @supports (scrollbar-gutter: stable) {
@@ -20,6 +36,6 @@
   }
 }
 
-.wrapper {
+.column {
   max-width: 400px;
 }

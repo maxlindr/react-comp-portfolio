@@ -23,27 +23,42 @@ export const App = () => {
     <ThemeProvider theme={theme}>
       <div className={styles.app}>
         <AppHeader />
+
         <main className={styles.main}>
-          <div className={styles.wrapper}>
-            <section className={styles.section}>
-              <h2>Date picker</h2>
-              <DesktopDatePickerDemo />
-            </section>
+          <h1 className="visually-hidden">Портфолио</h1>
 
-            <section className={styles.section}>
-              <h2>Multiselect</h2>
-              <MultiselectDemo />
-            </section>
+          <div className={styles.container}>
+            <p>
+              Данные компоненты создавались исключительно в&nbsp;качестве
+              демонстрации моих способностей и&nbsp;не&nbsp;предназначены для
+              использования в&nbsp;ваших проектах.
+            </p>
 
-            <section className={styles.section}>
-              <h2>Counter</h2>
-              <CounterDemo />
-            </section>
+            <div className={styles.columns}>
+              <div className={styles.column}>
+                <section className={styles.section}>
+                  <h2>Date picker</h2>
+                  <DesktopDatePickerDemo />
+                </section>
 
-            <section className={styles.section}>
-              <h2>Accordion</h2>
-              <AccordionDemo />
-            </section>
+                <section className={styles.section}>
+                  <h2>Counter</h2>
+                  <CounterDemo />
+                </section>
+              </div>
+
+              <div className={styles.column}>
+                <section className={styles.section}>
+                  <h2>Accordion</h2>
+                  <AccordionDemo />
+                </section>
+
+                <section className={styles.section}>
+                  <h2>Multiselect</h2>
+                  <MultiselectDemo />
+                </section>
+              </div>
+            </div>
           </div>
         </main>
       </div>
