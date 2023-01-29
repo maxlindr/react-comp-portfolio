@@ -1,5 +1,3 @@
 # Портфолио компонентов React
 
-## Демо
-
-[Посмотреть демо](https://demo.maxello.pro/).
+[Посмотреть демо](https://react.maxello.site/).
