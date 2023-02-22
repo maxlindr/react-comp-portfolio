@@ -7,3 +7,13 @@
     margin-top: 24px;
   }
 }
+
+.list {
+  margin-bottom: 24px;
+}
+
+.item {
+  & + & {
+    margin-top: 8px;
+  }
+}
